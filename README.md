@@ -1,4 +1,5 @@
 # G0-restapi-appointy
+
 # GO-rest-Api from scratch
 
 This Task is done for appointy intern the aim of this project is to create RestApi for minimal instagram clone 
@@ -49,6 +50,37 @@ go.mongodb.org/mongo-driver
 go run server.go
 ```
 
+
+### Standard Library used in the course of the project
+```bash
+"context"
+```
+
+```bash
+"crypto/md5"
+```
+
+```bash
+"encoding"
+```
+
+```bash
+    "fmt"
+```
+
+```bash
+    "io/ioutil"
+```
+
+
+```bash
+    "log"
+```
+```bash
+   "net/http"
+	"sync"
+	"time"
+```
 ## API Reference
 
 #### Get items
