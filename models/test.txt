@@ -1,0 +1,14 @@
+ctx, _ := context.WithTimeout(context.Background(), 10*time.Second)
+	userbase := client.Database("appointy")
+	usecollection := userbase.Collection("users")
+	userresult, err := usecollection.InsertOne(ctx, bson.D{
+		{Key: "Name", Value: "Rohan"},
+		{Key: "Email", Value: "rohanailoni@gmail.com"},
+		{Key: "password", Value: "Sunntbunnt@123"},
+	})
+	if err != nil {
+		log.Fatal(err)
+
+	}
+	fmt.Println(userresult.InsertedID)
+	defer client.Disconnect(ctx)
