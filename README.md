@@ -45,7 +45,7 @@ git clone https://github.com/rohanailoni/G0-restapi-appointy.git
 go.mongodb.org/mongo-driver
 ```
 
-#### Compiling the porogram
+#### Compiling the program
 ```bash
 go run server.go
 ```
@@ -154,7 +154,7 @@ at every point in the database SYNC.Mutex locks have been used
 
 ## ERROR Handling
 
-At every set of point in the program error has bee set with status of the server is returend
+At every set of point in the program error has been set with status of the server is returned
 
 
 ### Examples
