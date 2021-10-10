@@ -207,3 +207,11 @@ At every set of point in the program error has been set with status of the serve
 for the encryption of password we used MD5 alogrithm which is one way algo  of 128-bit hash done by using golang default library `crypto\md5`
 
 ![alt text](https://github.com/rohanailoni/G0-restapi-appointy/blob/main/assets/Screen%20Shot%202021-10-09%20at%209.58.29%20PM.png?raw=true)
+
+
+
+## Authors
+
+- [@rohanailoni](https://github.com/rohanailoni)
+- [contact-8008260370]
+- Email=rohanailoni@gmail.com
