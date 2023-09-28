@@ -1,4 +1,4 @@
-module appointy
+module github.com/rohanailoni/G0-restapi-appointy
 
 go 1.17
 
